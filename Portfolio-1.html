@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Portfolio-1: Student Registration Application (Open Day)</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style type="text/css">
+
+            div.classDivDescribeTechnicalDetails {
+                /* border: 1px solid black; */
+                width: 70%;
+                height: auto;
+                margin: auto;
+                text-align: left;
+            }
+
+            
+		</style>
+        
+    </head>
+    <body class="is-preload">
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    
+        <!-- page header -->
+        
+        <header id="header">
+            <div class="content">
+                <h1>Portfolio 1: Student Registration Application (Open Day)</h1>
+            </div>
+        </header>
+    
+
+    
+    
+        
+        
+        <section id="idSectionbIntroduction" class="wrapper style2 special">
+            <header class="major">
+                <h2>Introduction</h2>
+            </header>
+            <p>
+                <div class="classDivDescribeTechnicalDetails">
+                    A software development portfolio by Joel Goh C.H. 
+                    A web application that handles the registration of students
+                    for a university open-day event.
+                </div>
+           </p>
+       </section>
+
+       <section id="idSectionTechnicalDetails" class="wrapper style2 special">
+            <header class="major">
+                <h2>Technical Details</h2>
+            </header>
+            <p>
+                
+                <div class="classDivDescribeTechnicalDetails">
+                    Technology stacks and approach used: <br/><br/>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>ASP.Net classic</li>
+                        <li>C#</li>
+                        <li>Forms Authentication and Authrization</li>
+                        <li>ASP.Net Membership</li>
+                        <li>Asp.Net Role Manager</li>
+                        <li>LINQ</li>
+                        <li>MSSQL Database</li>
+                    </ul>
+                </div>
+            </p>
+        </section>
+
+        <section id="idSectionProjectPresentation" class="wrapper style2 special">
+            <header class="major">
+                <h2>Project Presentation</h2>
+            </header>
+            <p>
+                <div class="classDivDescribeTechnicalDetails"> 
+                    <br/>
+                    <video width="60%" controls id="myvideo">
+                        <source src="/videos/Portfolio1_project_presentation_720p.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <br/><br/>
+                    <a href="#" class="button" onclick="openFullscreen();">View in Full Screen ></a>
+                    <br/>
+                   
+                    <script>
+
+                        var elem = document.getElementById("myvideo");
+                        function openFullscreen() {
+                          if (elem.requestFullscreen) {
+                            elem.requestFullscreen();
+                          } else if (elem.webkitRequestFullscreen) { /* Safari */
+                            elem.webkitRequestFullscreen();
+                          } else if (elem.msRequestFullscreen) { /* IE11 */
+                            elem.msRequestFullscreen();
+                          }
+                        }
+
+                    </script>
+                    
+                </div>
+            </p>
+        </section>
+
+
+
+    </body>
+</html>
