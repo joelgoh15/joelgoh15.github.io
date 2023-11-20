@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Portfolio-3: Shoe Inventory Application</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style type="text/css">
+
+            div.classDivDescribeTechnicalDetails {
+                /* border: 1px solid black; */
+                width: 70%;
+                height: auto;
+                margin: auto;
+                text-align: left;
+            }
+
+		</style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    
+        <!-- page header -->
+        
+        <header id="header">
+            <div class="content">
+                <h1>Portfolio 3: Shoe Inventory Application</h1>
+            </div>
+        </header>
+    
+
+    
+    
+        
+        
+        <section id="idSectionbIntroduction" class="wrapper style2 special">
+            <header class="major">
+                <h2>Introduction</h2>
+            </header>
+            <p>
+                <div class="classDivDescribeTechnicalDetails"> 
+                    A software development portfolio by Joel Goh C.H. 
+                    A shoe inventory application.
+                </div>
+           </p>
+       </section>
+
+       <section id="idSectionTechnicalDetails" class="wrapper style2 special">
+            <header class="major">
+                <h2>Technical Details</h2>
+            </header>
+            <p>
+                
+                <div class="classDivDescribeTechnicalDetails">
+                    <ol>
+                        <li>A portfolio project with an emphasis on ASP.Net Web-API for C.R.U.D operations.</li>
+                        <li>Technology stacks and approach used:</li>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>ASP.Net</li>
+                                <li>Synchronous Web-API(RESTful)</li>
+                                <li>C#</li>
+                                <li>LINQ</li>
+                                <li>MSSQL Database</li>
+                            </ul>
+                    </ol>
+                </div>
+            </p>
+        </section>
+
+        <section id="idSectionProjectPresentation" class="wrapper style2 special">
+            <header class="major">
+                <h2>Project Presentation</h2>
+            </header>
+            <p>
+                <div class="classDivDescribeTechnicalDetails"> 
+                    <br/>
+                    <video width="60%" controls id="myvideo">
+                        <source src="/videos/Portfolio3_video_720p.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <br/><br/>
+                    <a href="#" class="button" onclick="openFullscreen();">View in Full Screen ></a>
+                    <br/>
+                   
+                    <script>
+
+                        var elem = document.getElementById("myvideo");
+                        function openFullscreen() {
+                          if (elem.requestFullscreen) {
+                            elem.requestFullscreen();
+                          } else if (elem.webkitRequestFullscreen) { /* Safari */
+                            elem.webkitRequestFullscreen();
+                          } else if (elem.msRequestFullscreen) { /* IE11 */
+                            elem.msRequestFullscreen();
+                          }
+                        }
+
+                    </script>
+                    
+                </div>
+
+            </p>
+        </section>
+
+
+
+    </body>
+</html>
