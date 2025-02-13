@@ -1,0 +1,66 @@
+﻿
+body.class-body {
+    width: 80%;
+    margin-left: 10%;
+}
+
+section.class-section-header {
+    background-color: lightgray;
+    height: 40px;
+}
+
+span.class-span-header {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Consolas;
+    margin-bottom: 0px;
+}
+
+section.class-section-main-content {
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: lightgray;
+}
+
+    .tab button {
+        background-color: inherit;
+        float: right;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 16px;
+        font-family: Consolas;
+    }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: white;
+        }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    font-family: Consolas;
+}
+
+section.class-section-footer {
+    font-family: Consolas;
+    font-size: 12px;
+    text-align: left;
+    border-top: 1px solid lightgray;
+    margin-top:20px;
+    padding-top: 10px;
+}
+
+
+
